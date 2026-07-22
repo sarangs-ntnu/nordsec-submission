@@ -1,0 +1,50 @@
+﻿# Operating-system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+.vscode/
+.idea/
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Office temporary files
+~$*.xlsx
+~$*.docx
+~$*.pptx
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Credentials and secrets
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+credentials*
+secrets*
+
+# Databases and backups
+*.sql
+*.sqlite
+*.sqlite3
+*.db
+*.bak
+*.tar
+*.tar.gz
+*.tgz
+
+# Private or internal directories
+raw/
+private/
+backups/
+database/
+docker/
+internal/
