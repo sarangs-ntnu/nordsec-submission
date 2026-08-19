@@ -1,0 +1,11 @@
+impact_element,impact_factor
+Availability,1.0
+Confidentiality,0.7
+Environmental,0.8
+Financial,0.6
+Information,0.8
+Integrity,1.0
+Operational,1.0
+Reputation,0.5
+Safety,1.0
+Staging,0.8

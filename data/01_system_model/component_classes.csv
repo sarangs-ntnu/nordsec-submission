@@ -1,0 +1,35 @@
+﻿Layer,Component,Primary ThreatSpider Class,Secondary Class,Standalone Component?,Notes
+Layer 1,GNSS / GPS Receiver,Embedded,ICS,Yes,Physical navigation device
+Layer 1,AIS Interface,ICS,Embedded,Yes,Operational maritime communication and navigation asset
+Layer 1,ENC Data Service,Embedded,ICS,Yes,Navigation-supporting data service; modeled as a component for analysis practicality
+Layer 1,RADAR / ARPA System,Embedded,ICS,Yes,Sensor and tracking system
+Layer 1,Navigation Data Integration Tool,Embedded,ICS,Yes,Integrates multiple navigation inputs and supports higher-layer processing
+Layer 1,Satellite Communication System,ICS,Embedded,Yes,Communications-facing operational module
+Layer 1,RF / VHF / UHF Communication Module,ICS,Embedded,Yes,RF communications asset
+Layer 1,Vessel Traffic Services Interface,ICS,Embedded,Yes,External traffic-service interface
+Layer 1,Remote Control Center Communication Interface,ICS,Embedded,Yes,Interface endpoint rather than full RCC
+Layer 1,GMDSS,ICS,Embedded,Yes,Safety-critical communication asset
+Layer 1,Controllable Pitch Propeller,ICS,Embedded,Yes,Physical actuation component
+Layer 1,Rudder Angle Indicator,Embedded,ICS,Yes,Sensor and control-support device
+Layer 1,Electric / Hybrid Propulsion System,ICS,Embedded,Yes,Operational propulsion asset
+Layer 1,Steering Gear System,ICS,Embedded,Yes,Control and actuation system
+Layer 1,Engine Control Mechanism,ICS,Embedded,Yes,Strong ICS-style control component
+Layer 1,LiDAR,Embedded,ICS,Yes,Physical sensor
+Layer 1,Sonar,Embedded,ICS,Yes,Physical sensor
+Layer 1,Infrared Camera System,Embedded,ICS,Yes,Sensor device
+Layer 1,Weather Transmission System,Embedded,ICS,Yes,Data-feed and communications-support sensor
+Layer 1,Echo Sounder,Embedded,ICS,Yes,Navigation-supporting sensor
+Layer 1,Gyroscope Compass,Embedded,ICS,Yes,Direction reference device
+Layer 1,Heading and Speed Sensor,Embedded,ICS,Yes,Motion-state sensing component
+Layer 2,Autonomous Decision-Making Engine,AI,Embedded,Yes,Core reasoning module
+Layer 2,Feedback Control Module,Embedded,ICS,Yes,Logic and control-refinement function
+Layer 2,Vessel Traffic Services Decision Integration,ICS,Embedded,Yes,Decision-side VTS integration
+Layer 2,Machine Learning and Adaptive Algorithm Module,AI,Embedded,Yes,Main AI module
+Layer 2,Human Override Control Interface,ICS,Embedded,Yes,Supervisory override logic and interface
+Layer 2,Internal Data Pipeline / Integration Module,Embedded,ICS,Yes,Internal trusted data exchange
+Layer 2,Target Model,AI,Embedded,Maybe,Separate only if ThreatSpider granularity allows
+Layer 2,Training Data Asset,AI,Embedded,Maybe / Note,Separate only if useful for ATLAS-driven modeling
+Layer 3,Data Integration and Analysis Module,Embedded,AI,Yes,Central fusion and analysis component
+Layer 3,Autonomous Navigation Decision Module,AI,Embedded,Yes,Computes navigation actions
+Layer 3,Collision Avoidance System,ICS,Embedded,Yes,Safety-critical decision-support and control function
+Layer 3,Navigation Support and Situational Awareness Module,Embedded,ICS,Yes,Interprets integrated navigation picture
